@@ -6,23 +6,21 @@ Mod 19
 ## How many neurons and layers did you select for your neural network model?
 * I tried multiple hidden layers and neurons to reduce the loss mechanism and increase the accuracy of the model. <p>
 * No matter how many layers and neurons were added the accuracy did not increase past 74.20%. <p>
-* I left the model with three hidden layers with the number of neurons at 20, 16, and 8 for the three layers. <p>
+* The most optimal model has three hidden layers with the number of neurons at 20, 16, and 8 for the three layers. <p>
 
 ## Were you able to achieve the target model performance?
 * I was not able to acheive the target. <p>
 * No matter what was tried, I could not get past 74.20% accuracy. <p>
   
 ## What steps did you take to try and increase model performance?
-* The first thing I tried was adding hidden layers. <p>
-After I added up to 10 hidden layers and did not see an increase in accuracy, I decided to reduce the hidden layers down to three to reduce overfitting. <p>
+* The first thing I tried was adding hidden layers. After I added up to 10 hidden layers and did not see an increase in accuracy, I decided to reduce the hidden layers down to three to reduce overfitting. <p>
 * I added more neurons and kept adding neurons but did not see an increase in accuracy. <p>
 * I increased the number of epochs to over 1000 but did not see an increase in accuracy. <p>
 * I finally changed the activation mode for each of the hidden layers but did not see an increase in accuracy. <p>
   
 ## What other model would you implement to solve this problem?
-* There are a few models that could be implemented to increase accuracy. <p>
 * The binary classificaiton model for the basic neural network did not produce a higher accuracy score. <p>
-* A linear model would not work here, a support vector machine model seperates points by distance which is unlikely to work, and a random forest model works like a decision tree and could work here.
+* A linear model would not work here, a support vector machine model seperates points by distance which is unlikely to work, and a random forest model works like a decision tree could work here.
   
   
 # Objectives:
